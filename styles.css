@@ -1,0 +1,771 @@
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body{
+  background-color: 	#e5e5e5;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ff69b4;
+}
+
+.memory-lane {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.photo:hover img {
+  transform: scale(1.1);
+}
+
+.caption {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 32px;
+  text-align:start;
+  margin-bottom: 20px;
+  color:#333;
+}
+
+.section-title:hover{
+  color: #ff69b4;
+}
+
+/* CSS styles for the chessboard */
+.chessboard {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+.chessboard td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #999;
+  background-color:#fcecf1 ;
+}
+
+/* CSS styles for the love letter */
+#loveLetter {
+  margin-top: 20px;
+  margin-right: 515px;
+  margin-left: 515px;
+  padding: 10px;
+  border: 1px solid #333;
+  background-color:#fcecf1;
+  color:		#ff3377;
+}
+.chess-table {
+  font-size: 32px;
+  text-align:center;
+  margin-bottom: 20px;
+  color:#333;
+}
+.chess-table:hover {
+  color:#ff69b4;
+}
+.instructions {
+  text-align:justify;
+  margin-bottom: 20px;
+  line-height: 2em;
+}
+/* CSS styles */
+.container2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-title2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.questions {
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ff69b4;
+}
+
+.photos2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 90px;
+}
+.photos2 img{
+  border-radius: 5%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Shadow */
+}
+
+.hidden {
+  display: none;
+}
+.logo-image{
+  width:100px;
+  height:auto;
+}
+.section-title3 {
+  margin-top: 50px;
+  font-size: 40px;
+  font-style: italic;
+  text-align:center;
+  margin-bottom: 20px;
+  color:#333;
+}
+.spotify-playlist {
+  margin: 40px auto; /* Adjust margin as needed */
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+}
+
+.spotify-playlist iframe {
+  border-radius: 12px; /* Border radius for the iframe */
+}
+.section-title4{
+  margin-top: 50px;
+  font-size: 32px;
+  text-align:center;
+  margin-bottom: 20px;
+  color:#333;
+}
+.riddle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Adjust height as needed */
+}
+
+.riddle-box {
+  margin-left: 100px;
+  background-color: #E6A6BE; /* Pink background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow */
+}
+
+.riddle-title {
+  color: #333; /* White text color */
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.riddle-text {
+  color: #fff; /* White text color */
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+/* CSS styles for the form */
+.container2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-title2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.questions {
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color:#ff69b4 ;
+}
+#message-box {
+  display: none;
+  background-color: #E6A6BE; /* Pink background color */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow */
+  margin: 20px auto; /* Center horizontally */
+  margin-top: 20px;
+  max-width: 750px;
+}
+.congrats-message {
+  color: #fff; /* White text color */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hint-message{
+  color: #333; /* White text color */
+  line-height: 1.5em;
+}
+
+.hint-message a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer {
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo h3 {
+  font-size: 30px;
+  margin-left: -70px;
+  margin-right: 40px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  line-height: 2em;
+  display: block;
+  margin-right: 10px;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  color: #ff69b4;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-social ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-social ul li a:hover {
+  color: #ff69b4;
+}
+
+.footer-text p {
+  margin: 0;
+}
+
+.footer-text p:last-child {
+  margin-top: 10px;
+}
+.book {
+  width: 80%;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.page {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  background-color: #E6A6BE;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: none;
+  overflow-y:scroll;
+}
+
+.page.active {
+  display: block;
+}
+.section-title5{
+  color: 	#A94064;
+}
+.page-para{
+  line-height: 1.5em;
+  font-size: large;
+}
+.love-letter-container1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section-title6 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+}
+.section-title6:hover{
+  color: #ff69b4;
+}
+.love-letter1 img {
+  max-width: 700px;
+  height: 900px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.Photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.Photo img {
+  margin-top: 30px;
+  width: 400px; /* Adjusts the width to fill the column */
+  height: 500px; /* Maintains aspect ratio */
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.Photo:hover img {
+  transform: scale(1.1);
+}
+
+.description {
+  line-height: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+
+.Photo:hover .description {
+  visibility: visible;
+  opacity: 1;
+}
+.section-title8 {
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+  color: #333;
+}
+.section-title8:hover{
+  color: #ff69b4;
+}
+.section-title9 {
+  text-align: center;
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 50px;
+}
+.section-title9:hover{
+  color: #ff69b4;
+}
+
+.quote i {
+  margin-right: 10px; /* Adjust spacing between icon and text */
+  color: #ff69b4; /* Change icon color */
+  font-size: 24px; /* Adjust icon size */
+}
+/* Update the container styles to spread quotes throughout the page */
+.quote-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Adjust as needed */
+}
+
+/* Style each individual quote */
+.quote {
+  line-height: 1.5em;
+  margin: 10px; /* Adjust spacing between quotes */
+  padding: 10px;
+  border: 2px solid #ff69b4; /* Pink border */
+  border-radius: 10px;
+  max-width: 300px; /* Adjust maximum width of each quote */
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* CSS styles here */
+
+/* Update the hover effect */
+.quote:hover {
+  background-color: #F8BDE2; /* Pink background color on hover */
+  transform: scale(1.05); /* Optional: Increase size on hover */
+}
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+
+  .nav-links li {
+    margin-right: 50px;
+  }
+  .photos {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted grid columns for smaller screens */
+    grid-gap: 10px; /* Reduced grid gap for smaller screens */
+  }
+  .photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  .photo:hover img {
+    transform: scale(1.05);
+  }
+  
+  .photo img {
+    border-radius: 5px; /* Reduced border radius for smaller screens */
+  }
+
+  .section-title {
+    font-size: 30px; /* Further reduced font size for smaller screens */
+  }
+  .riddle-container {
+    height: auto; /* Adjusted height for responsiveness */
+    flex-direction: column; /* Stack items vertically for smaller screens */
+  }
+  
+  .riddle-box {
+    margin: 20px 0; /* Adjusted margin for responsiveness */
+  }
+  .chessboard td {
+    width: 30px; /* Adjusted width for smaller screens */
+    height: 30px; /* Adjusted height for smaller screens */
+    font-size: 12px; /* Adjusted font size for smaller screens */
+  }
+  #loveLetter {
+    margin-right: 20px; /* Adjusted margin for responsiveness */
+    margin-left: 20px; /* Adjusted margin for responsiveness */
+  }
+  .chess-table {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+  }
+
+  .instructions {
+    text-align: left; /* Reset text alignment for smaller screens */
+    margin-bottom: 10px; /* Reduced margin for smaller screens */
+    line-height: 1.8em; /* Adjusted line height for smaller screens */
+  }
+  .container2 {
+    padding: 10px; /* Adjusted padding for smaller screens */
+  }
+
+  .section-title2 {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+  }
+
+  button {
+    padding: 8px 16px; /* Adjusted padding for smaller screens */
+    font-size: 14px; /* Adjusted font size for smaller screens */
+    margin-top: 10px; /* Reduced margin top for smaller screens */
+  }
+  .photos2 {
+    grid-gap: 10px; /* Further reduced grid gap for smaller screens */
+    margin-left: 30px;
+  }
+  .section-title4{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align:center;
+    margin-bottom: 20px;
+    color:#333;
+  }
+  .section-title3 {
+    font-size: 32px; /* Adjusted font size for smaller screens */
+    margin-top: 30px; /* Adjusted margin top for smaller screens */
+    margin-bottom: 10px; /* Adjusted margin bottom for smaller screens */
+  }
+  #message-box {
+    padding: 20px; /* Adjusted padding for smaller screens */
+    max-width: 90%; /* Adjusted max-width for smaller screens */
+  }
+
+  .congrats-message {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+    line-height: 1.5em;
+  }
+
+  .hint-message {
+    line-height: 1.5em; /* Adjusted line height for smaller screens */
+  }
+  .container2 {
+    padding: 10px; /* Adjusted padding for smaller screens */
+  }
+
+  .section-title2 {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+  }
+
+  input[type="text"] {
+    max-width: 90%; /* Adjusted max-width for smaller screens */
+  }
+  .container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    text-align: center; /* Center-align items on smaller screens */
+  }
+  .footer-logo h3 {
+    margin: 0; /* Remove margin on smaller screens */
+    margin-bottom: 20px; /* Add margin bottom for spacing on smaller screens */
+  }
+  
+  .footer-content {
+    margin-bottom: 20px; /* Add margin bottom for spacing on smaller screens */
+  }
+  
+  .footer-links ul li,
+  .footer-social ul li {
+    margin: 0 10px; /* Adjust margin for spacing on smaller screens */
+  }
+  .footer-text p {
+    margin: 0;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  .book {
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .page {
+    width: 100%;
+    height: auto; /* Adjust height to be auto for variable content */
+    padding: 20px;
+    background-color: #E6A6BE;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+  }
+  
+  .page.active {
+    display: block;
+  }
+  
+  .section-title5 {
+    color: #A94064;
+  }
+  
+  .page-para {
+    line-height: 1.5em;
+    font-size: medium; /* Adjust font size as needed */
+  }
+  
+  .love-letter-container1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .section-title6 {
+    text-align: center;
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333;
+  }
+  
+  .section-title6:hover {
+    color: #ff69b4;
+  }
+  
+  .love-letter1 img {
+    max-width: 100%; /* Ensure images adjust to fit container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust minimum width for responsiveness */
+    gap: 20px;
+  }
+  
+  .Photo {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .Photo img {
+    width: 400px; /* Adjusts the width to fill the column */
+    height: 500px; /* Maintains aspect ratio */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .Photo:hover img {
+    transform: scale(1.1);
+  }
+  
+  .description {
+    line-height: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+  .section-title9 {
+    text-align: center;
+    font-size: 32px; /* Adjust font size for smaller screens */
+    color: #333;
+    margin-bottom: 30px; /* Reduce margin for smaller screens */
+  }
+  
+  .section-title9:hover {
+    color: #ff69b4;
+  }
+  
+  /* Update the container styles to spread quotes throughout the page */
+  .quote-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center quotes horizontally */
+  }
+  
+  /* Style each individual quote */
+  .quote {
+    line-height: 1.5em;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #ff69b4; /* Consistent border size */
+    border-radius: 10px;
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text within each quote */
+  }
+  
+  /* Update the hover effect */
+  .quote:hover {
+    background-color: #F8BDE2;
+    transform: scale(1.05);
+  }
+  
+}
